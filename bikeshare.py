@@ -10,6 +10,7 @@ month_names = ['January', 'February', 'March', 'April', 'May', 'June']
 day_names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
 # define function get_filters
+# some comments
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -242,7 +243,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
     main()
